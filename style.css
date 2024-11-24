@@ -1,11 +1,16 @@
+.parent{
+    background-color:    rgb(255, 236, 153);
+    width: 100%;
+    height:100%;
+}
 .navbar{
-    background-color: rgb(228, 209, 159);
+    background-color: rgb(235, 203, 122);
     width: 90%px;
     height: 100px;
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    border-radius: 20px;
+    
 }
 .logo{
     height: 100%;
@@ -14,12 +19,14 @@
 .displaytext{
     width: 750px;
     color: white;
-    padding-top: 10px;
+
 }
 .wraptext{
     width: 700px;
-    padding-block: 130px;
     align-items: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+
 }
 .wrapcontent{
     display: flex;
@@ -30,9 +37,11 @@
     width: 500px;
     height: 500px;
     border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .button{
-    background-color: rgb(194, 176, 129);
+    background-color: rgb(240, 142, 61);
     margin-top: 50px;
     height: 20px;
     width: 100px;
@@ -40,6 +49,61 @@
     text-align: center;
     padding-block: 10px;
 }
-.addres{
-    margin-top: 70px;
+.contenttext{
+    background-color:  rgb(235, 203, 122);
+    width: 90%px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: rgb(244, 155, 53);
+    text-shadow: 1px 1px black;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.wraptext2{
+    display: flex;
+    margin-right: 30px;
+    padding:30px;
+    margin-top: 100px;
+    color: rgb(244, 155, 53);
+    text-shadow: 1px 1px black;
+}
+.content3{
+    background-color: rgb(255, 236, 153);
+    width: 100%;
+    height: 750px;
+}
+
+@media (max-width: 400px) {
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+    .parent{
+        background-color:   rgb(242, 215, 145);
+        width: 460px;
+        height:100%;
+    }
+    .wraptext{
+        font-size: 15px;
+    }
+    .contenttext{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .displaytext{
+        display: flex;
+        margin-left: 200px;
+    }
+    .wraptext2{
+        font-size: 10px;
+
+    }
+    .content3{
+        height: 400px;
+    }
 }
