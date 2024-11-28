@@ -1,0 +1,124 @@
+.parent{
+    background-color:    rgb(255, 236, 153);
+    width: 1200px;
+    height:2100px;
+    margin-left: 4px;
+}
+.navbar{
+    background-color:  rgb(235, 203, 122);
+    width: 90%px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.displaytext{
+    width: 750px;
+    color: white;
+
+}
+.wraptext{
+    width: 700px;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+
+}
+.wrapcontent{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.button{
+    background-color: rgb(240, 142, 61);
+    margin-top: 50px;
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    padding-block: 10px;
+}
+.contenttext{
+    background-color:  rgb(235, 203, 122);
+    width: 90%px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    color: rgb(244, 155, 53);
+    text-shadow: 1px 1px black;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.wraptext2{
+    display: flex;
+    margin-right: 30px;
+    padding:30px;
+    margin-top: 0px;
+    color: rgb(244, 155, 53);
+    text-shadow: 1px 1px black;
+}
+.content3{
+    background-color: rgb(255, 236, 153);
+    width: 100%;
+    height: 750px;
+}
+
+@media (max-width: 400px) {
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+    .parent{
+        background-color:    rgb(255, 236, 153);
+        width: 470px;
+        height:100%;
+        
+    }
+    .wraptext{
+        font-size: 10px;
+        margin-button: 50px;
+    }
+    .contenttext{
+        font-size: 10px;
+        display: flex;
+        text-align: center;
+        background-color:  rgb(235, 203, 122);
+    }
+    .displaytext{
+        display: flex;
+        margin-left: 100px;
+    }
+    .wraptext2{
+        font-size: 8px;
+
+    }
+    .content3{
+        height: 400px;
+    }
+    .displaytext2{
+        display: flex;
+        justify-content: center; 
+        gap: 50px;
+        margin-left: -500px;">
+
+    }
+    .logo{
+        height: 100%;
+        width: 100%;
+    }
+}
